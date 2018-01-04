@@ -11,5 +11,5 @@ pikabu.ru##.page-story:if-not(.story__left > div+div)
 
 ! 1/3/2018, 12:53:22 PM http://www.yaplakal.com/
 www.yaplakal.com##.lenta tr:if(.news-content:has(*[style="color:#3333FF"]))
-www.yaplakal.com##.lenta tr[hidden] + tr:has(.newsbottom)
-www.yaplakal.com##.lenta tr:not([hidden]):if(:xpath(following::tr[@hidden]/following::tr[@hidden]))
+www.yaplakal.com##.lenta *:xpath(tr[@*]/following::tr[1])
+www.yaplakal.com##.lenta *:xpath(tr[@*]/preceding::tr[1])
