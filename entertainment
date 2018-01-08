@@ -13,3 +13,6 @@ pikabu.ru##.page-story:if-not(.story__left > div+div)
 yaplakal.com##.lenta tr:if(.news-content:has(*[style="color:#3333FF"]))
 yaplakal.com##.lenta tbody tr:if(.news-content:has(*[style="color:#3333FF"])):xpath(following::tr[1])
 yaplakal.com##.lenta tbody tr:if(.news-content:has(*[style="color:#3333FF"])):xpath(preceding::tr[1])
+
+! 1/8/2018, 2:25:57 PM https://www.tut.by/
+www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
