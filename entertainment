@@ -5,6 +5,7 @@
 music.yandex.ru##.bar__new-pay
 music.yandex.ru##.ads-block
 music.yandex.ru##.ads-block__no-ads
+music.yandex.ru##.bar .bar-below
 
 ! 12/7/2017, 6:32:34 PM https://pikabu.ru/
 pikabu.ru##.page-story:if-not(.story__left > div+div)
