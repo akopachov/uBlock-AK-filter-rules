@@ -5,5 +5,7 @@ As for now there are rules for:
 * music.yandex.ru
 * pikabu.ru
 * yaplakal.com
+* habrahabr.ru
+* geektimes.ru
 
 #### Any reasonable pull requests \ suggestions are welcome!
