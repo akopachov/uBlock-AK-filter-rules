@@ -21,3 +21,7 @@ yaplakal.com##.lenta tr:if(.newshead .mainpage:xpath(a[starts-with(@href, '/go/'
 
 ! 1/8/2018, 2:25:57 PM https://www.tut.by/
 www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
+
+! 2/12/2018 habrahabr.ru
+habrahabr.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
+geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
