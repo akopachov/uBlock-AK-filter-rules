@@ -25,3 +25,6 @@ www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^no
 ! 2/12/2018 habrahabr.ru
 habrahabr.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
+
+! 2/14/2018 pikabu.ru
+pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper:if(a:has-text(admin)):if(.story__tags a:has-text(реклама)))
