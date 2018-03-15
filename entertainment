@@ -28,3 +28,5 @@ pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper
 
 ! 3/2/2018 https://music.yandex.ru
 music.yandex.ru##.d-overhead:if(.ads-block)
+
+pikabu.ru##.stories-feed:if(.story__sponsor-w)
