@@ -15,6 +15,9 @@ yaplakal.com##.lenta tr:if(.newshead:if-not(.rating-short-value)):xpath(followin
 yaplakal.com##.lenta tr:if(.newshead:if-not(.rating-short-value))
 yaplakal.com##.lenta tr:if(.newshead .mainpage:xpath(a[starts-with(@href, '/go/')])):xpath(following::tr[position() <= 2])
 yaplakal.com##.lenta tr:if(.newshead .mainpage:xpath(a[starts-with(@href, '/go/')]))
+yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(following::tr[1])
+yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(preceding::tr[1])
+yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img))
 
 ! 1/8/2018, 2:25:57 PM https://www.tut.by/
 www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
