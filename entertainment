@@ -30,3 +30,4 @@ pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper
 music.yandex.ru##.d-overhead:if(.ads-block)
 
 pikabu.ru##.stories-feed:if(.story__sponsor-w)
+pikabu.ru##.stories-feed:if(.story__sponsor)
