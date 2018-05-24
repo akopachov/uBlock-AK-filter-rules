@@ -36,3 +36,4 @@ pikabu.ru##.stories-feed:if(.story__sponsor-w)
 pikabu.ru##.stories-feed:if(.story__sponsor)
 
 talks.by##.block_main .theme_info + iframe
+talks.by##.block_main .theme_info + div:has(div[id])
