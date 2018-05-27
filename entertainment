@@ -32,9 +32,6 @@ pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper
 ! 3/2/2018 https://music.yandex.ru
 music.yandex.ru##.d-overhead:if(.ads-block)
 
-pikabu.ru##.stories-feed:if(.story__sponsor-w)
-pikabu.ru##.stories-feed:if(.story__sponsor)
-
 talks.by##.block_main .theme_info + iframe
 talks.by##.block_main .theme_info + div:if(div[id])
 talks.by##.main > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div:if(div[id])
