@@ -35,3 +35,5 @@ music.yandex.ru##.d-overhead:if(.ads-block)
 talks.by##.block_main .theme_info + iframe
 talks.by##.block_main .theme_info + div:if(div[id])
 talks.by##.main > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div:if(div[id])
+
+gomel.today||gomel.today/uploads/banners/*
