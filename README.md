@@ -8,5 +8,6 @@ As for now there are rules for:
 * yaplakal.com
 * habrahabr.ru
 * geektimes.ru
+* drive2.ru
 
 #### Any reasonable pull requests \ suggestions are welcome!
