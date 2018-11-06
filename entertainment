@@ -41,3 +41,5 @@ drive2.ru##iframe:xpath((//ancestor::*[@id])[last() - 1])
 pikabu.ru##section.stories-feed__message:if(.zen-widget)
 pikabu.ru##.sidebar div:xpath(.//div[@id][not(text()) and not(node())]):if-not(div+div)
 pikabu.ru##.main .main__inner .page-story *[id]:if-not(*):has-text(/^$/)
+
+tut.by##.prom-l,.prom-r,.full-link
