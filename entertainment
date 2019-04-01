@@ -6,6 +6,7 @@ music.yandex.ru##.bar__new-pay
 music.yandex.ru##.ads-block
 music.yandex.ru##.ads-block__no-ads
 music.yandex.ru##.bar .bar-below
+music.yandex.ru##.sidebar > div > div:not([class*=teaser])
 
 ! 1/3/2018, 12:53:22 PM http://www.yaplakal.com/
 yaplakal.com##.lenta tr:if(.news-content:has(*[style="color:#3333FF"]))
