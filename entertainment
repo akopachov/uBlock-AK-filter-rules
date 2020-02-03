@@ -23,7 +23,7 @@ yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/
 www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
 
 ! 2/12/2018 habrahabr.ru
-habrahabr.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
+habr.com##.content-list__item:has(a[href='https://tmtm.ru/services/advertising/'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
 
 ! 2/14/2018 pikabu.ru
