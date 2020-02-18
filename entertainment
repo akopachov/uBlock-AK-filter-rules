@@ -44,3 +44,6 @@ pikabu.ru##.main .main__inner .page-story *[id]:if-not(*):has-text(/^$/)
 
 tut.by##.prom-l,.prom-r,.full-link
 tut.by##body:style(background: #e6e6e6!important)
+
+music.yandex.ru##.teaser+div[data-b]
+music.yandex.ru##.teaser+div:has(div[data-b])
