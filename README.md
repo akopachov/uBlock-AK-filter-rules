@@ -1,5 +1,5 @@
 # uBlock filter rules
-In this repo I'm keeping all custom filter rules I'm using for the sites I'm typically visit. Some of them are trying to "mask" ad or make it "native". But this is not what I want to see.
+In this repo I keep all custom filter rules I'm using for the sites I'm typically visiting. Some of them are trying to "mask" ad or make it "native". But this is not what I want to see.
 As for now there are rules for:
 * tut.by
 * talks.by
