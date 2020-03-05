@@ -47,3 +47,8 @@ tut.by##body:style(background: #e6e6e6!important)
 
 music.yandex.ru##.teaser+div[data-b]
 music.yandex.ru##.teaser+div:has(div[data-b])
+
+||music.yandex.ru/handlers/account-status.jsx$xhr,domain=music.yandex.ru
+||music.yandex.ru/_crpd$xhr,domain=music.yandex.ru
+||strm.yandex.ru/get$xhr,domain=strm.yandex.ru
+
