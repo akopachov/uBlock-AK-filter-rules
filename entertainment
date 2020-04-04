@@ -26,6 +26,10 @@ www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^no
 habr.com##.content-list__item:has(a[href='https://tmtm.ru/services/advertising/'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
 
+! 4/4/2020 https://music.yandex.ru
+music.yandex.ru##div[data-b]:matches-css(display: block):matches-css(height: 250px):matches-css(overflow: hidden):has(.d-overhead__close)
+
+
 ! 2/14/2018 pikabu.ru
 pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper:if(a:has-text(admin)):if(.story__tags a:has-text(реклама)))
 
