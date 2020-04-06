@@ -1,0 +1,4 @@
+yandexmusic_fck.js application/javascript
+(function() {
+  document.querySelector('.adfox-brick').previousSibling.remove();
+})();
