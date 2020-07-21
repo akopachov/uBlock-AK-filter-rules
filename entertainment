@@ -57,3 +57,4 @@ music.yandex.ru##.player-controls__btn_pause+.deco-pane-popup:has(.d-no-ads)
 ||music.yandex.ru/_crpd$xhr,domain=music.yandex.ru
 ||strm.yandex.ru/get$xhr,domain=strm.yandex.ru
 
+tut.by##.b-top:not([class$='b-top'])
