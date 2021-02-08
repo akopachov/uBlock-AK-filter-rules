@@ -60,6 +60,5 @@ music.yandex.ru##.player-controls__btn_pause+.deco-pane-popup:has(.d-no-ads)
 tut.by##.b-top:not([class$='b-top'])
 
 ! Propaganda's bulsh*t
-yaplakal.com###lentaFeed:xpath(tr[position() <= 3])
 *##a[href*='president.gov.by']
 ||president.gov.by
