@@ -1,13 +1,10 @@
-! 11/29/2017, 8:17:07 PM https://www.tut.by/
 ||www.tut.by/push/*/$subdocument
 
-! 8/3/2017, 2:02:25 PM https://music.yandex.ru/
 music.yandex.ru##.bar__new-pay
 music.yandex.ru##.ads-block
 music.yandex.ru##.ads-block__no-ads
 music.yandex.ru##.bar .bar-below
 
-! 1/3/2018, 12:53:22 PM http://www.yaplakal.com/
 yaplakal.com##.lenta tr:if(.news-content:has(*[style="color:#3333FF"]))
 yaplakal.com##.lenta tbody tr:if(.news-content:has(*[style="color:#3333FF"])):xpath(following::tr[1])
 yaplakal.com##.lenta tbody tr:if(.news-content:has(*[style="color:#3333FF"])):xpath(preceding::tr[1])
@@ -19,21 +16,15 @@ yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(preceding::tr[1])
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img))
 
-! 1/8/2018, 2:25:57 PM https://www.tut.by/
 www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
 
-! 2/12/2018 habrahabr.ru
 habr.com##.content-list__item:has(a[href='https://tmtm.ru/services/advertising/'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
 
-! 4/4/2020 https://music.yandex.ru
 music.yandex.ru##div[data-b]:matches-css(display: block):matches-css(height: 250px):matches-css(overflow: hidden):has(.d-overhead__close)
 
-
-! 2/14/2018 pikabu.ru
 pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper:if(a:has-text(admin)):if(.story__tags a:has-text(реклама)))
 
-! 3/2/2018 https://music.yandex.ru
 music.yandex.ru##.d-overhead:if(.ads-block)
 
 talks.by##.block_main .theme_info + iframe
