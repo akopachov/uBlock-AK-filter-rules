@@ -1,9 +1,24 @@
 ||www.tut.by/push/*/$subdocument
+tut.by##.prom-l,.prom-r,.full-link
+tut.by##body:style(background: #e6e6e6!important)
+tut.by##.b-top:not([class$='b-top'])
+www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
+talks.by##.block_main .theme_info + iframe
+talks.by##.block_main .theme_info + div:if(div[id])
+talks.by##.main > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div:if(div[id])
 
 music.yandex.ru##.bar__new-pay
 music.yandex.ru##.ads-block
 music.yandex.ru##.ads-block__no-ads
 music.yandex.ru##.bar .bar-below
+music.yandex.ru##div[data-b]:matches-css(display: block):matches-css(height: 250px):matches-css(overflow: hidden):has(.d-overhead__close)
+music.yandex.ru##.d-overhead:if(.ads-block)
+music.yandex.ru##.teaser+div[data-b]
+music.yandex.ru##.teaser+div:has(div[data-b])
+music.yandex.ru##.player-controls__btn_pause+.deco-pane-popup:has(.d-no-ads)
+||music.yandex.ru/handlers/account-status.jsx$xhr,domain=music.yandex.ru
+||music.yandex.ru/_crpd$xhr,domain=music.yandex.ru
+||strm.yandex.ru/get$xhr,domain=strm.yandex.ru
 
 yaplakal.com##.lenta tr:if(.news-content:has(*[style="color:#3333FF"]))
 yaplakal.com##.lenta tbody tr:if(.news-content:has(*[style="color:#3333FF"])):xpath(following::tr[1])
@@ -16,40 +31,20 @@ yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(preceding::tr[1])
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img))
 
-www.tut.by##.news-entry:if(.entry-starred:has-text(*):matches-css(display: /[^none]/))
-
 habr.com##.content-list__item:has(a[href='https://tmtm.ru/services/advertising/'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
 
-music.yandex.ru##div[data-b]:matches-css(display: block):matches-css(height: 250px):matches-css(overflow: hidden):has(.d-overhead__close)
-
 pikabu.ru##.story:if(.story__header-additional .story__header-additional-wrapper:if(a:has-text(admin)):if(.story__tags a:has-text(реклама)))
-
-music.yandex.ru##.d-overhead:if(.ads-block)
-
-talks.by##.block_main .theme_info + iframe
-talks.by##.block_main .theme_info + div:if(div[id])
-talks.by##.main > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div:if(div[id])
-
-||gomel.today/uploads/banners/*
-drive2.ru##iframe:xpath((//ancestor::*[@id])[last() - 1])
 pikabu.ru##section.stories-feed__message:if(.zen-widget)
 pikabu.ru##.sidebar div:xpath(.//div[@id][not(text()) and not(node())]):if-not(div+div)
 pikabu.ru##.main .main__inner .page-story *[id]:if-not(*):has-text(/^$/)
 pikabu.ru##.kong-vs-godzilla.kong-vs-godzilla__comments
 
-tut.by##.prom-l,.prom-r,.full-link
-tut.by##body:style(background: #e6e6e6!important)
+||gomel.today/uploads/banners/*
+gomel.today##.brand-link
+gomel.today##body:style(background-image: none!important; padding-top: 0!important; background-color: #fff!important)
 
-music.yandex.ru##.teaser+div[data-b]
-music.yandex.ru##.teaser+div:has(div[data-b])
-music.yandex.ru##.player-controls__btn_pause+.deco-pane-popup:has(.d-no-ads)
-
-||music.yandex.ru/handlers/account-status.jsx$xhr,domain=music.yandex.ru
-||music.yandex.ru/_crpd$xhr,domain=music.yandex.ru
-||strm.yandex.ru/get$xhr,domain=strm.yandex.ru
-
-tut.by##.b-top:not([class$='b-top'])
+drive2.ru##iframe:xpath((//ancestor::*[@id])[last() - 1])
 
 ! Propaganda's bulsh*t
 *##a[href*='president.gov.by']
