@@ -30,6 +30,7 @@ yaplakal.com##.lenta tr:if(.newshead .mainpage:xpath(a[starts-with(@href, '/go/'
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(following::tr[1])
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img)):xpath(preceding::tr[1])
 yaplakal.com##.lenta tr:if(.news-content:xpath(.//a[starts-with(@href, '/go/')]/img))
+yaplakal.com###lentaFeed tr:has(.newshead .rating-short-value:xpath(a[starts-with(text(),'-')])):xpath(.|following::tr[position() <= 2])
 
 habr.com##.content-list__item:has(a[href='https://tmtm.ru/services/advertising/'])
 geektimes.ru##.dfp-slot:has(a[href*='tmtm.ru/services/advertising'])
