@@ -39,6 +39,7 @@ gomel.today##body:style(background-image: none!important; padding-top: 0!importa
 drive2.ru##iframe:xpath((//ancestor::*[@id])[last() - 1])
 
 facebook.com##div[data-pagelet=RightRail] > div:first-child:has-text(Реклама)
+facebook.com##div[data-pagelet^='FeedUnit_']:has(b+b:has-text(Реклама))
 
 ! Propaganda's bulsh*t
 *##a[href*='president.gov.by']
