@@ -45,3 +45,6 @@ facebook.com###ssrb_rhc_start + div > div:has-text(Реклама)
 ! Propaganda's bulsh*t
 *##a[href*='president.gov.by']
 ||president.gov.by
+
+! Just annoying
+dev.to##.js-billboard-container.crayons-layout__comments-billboard
